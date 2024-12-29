@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nametag</title>
+    <style>
+        /* Gaya umum untuk halaman */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Gaya untuk nametag */
+        .nametag {
+            background-color: #4CAF50; /* Warna latar belakang hijau */
+            color: white; /* Warna teks putih */
+            padding: 20px 30px;
+            border-radius: 15px; /* Sudut melengkung */
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+            transition: transform 0.3s, box-shadow 0.3s; /* Efek transisi */
+        }
+
+        /* Efek hover untuk nametag */
+        .nametag:hover {
+            transform: scale(1.1); /* Membesarkan sedikit saat hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar saat hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Nametag -->
+    <div class="nametag">
+        Nama: John Doe
+    </div>
+</body>
+</html>
