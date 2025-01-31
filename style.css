@@ -1,46 +1,65 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nametag</title>
-    <style>
-        /* Gaya umum untuk halaman */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-
-        /* Gaya untuk nametag */
-        .nametag {
-            background-color: #4CAF50; /* Warna latar belakang hijau */
-            color: white; /* Warna teks putih */
-            padding: 20px 30px;
-            border-radius: 15px; /* Sudut melengkung */
-            font-size: 24px;
-            font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
-            transition: transform 0.3s, box-shadow 0.3s; /* Efek transisi */
-        }
-
-        /* Efek hover untuk nametag */
-        .nametag:hover {
-            transform: scale(1.1); /* Membesarkan sedikit saat hover */
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar saat hover */
-        }
-    </style>
-</head>
-<body>
-    <!-- Nametag -->
-    <div class="nametag">
-        Nama: John Doe
-    </div>
-</body>
-</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .card-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .card-body p {
+    margin: 10px 0;
+  }
+  
+  .card-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
